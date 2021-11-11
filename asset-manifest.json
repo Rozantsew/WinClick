@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/WinClick/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/WinClick/static/js/main.10d65588.chunk.js",
+    "main.js.map": "/WinClick/static/js/main.10d65588.chunk.js.map",
+    "runtime-main.js": "/WinClick/static/js/runtime-main.c531b1e6.js",
+    "runtime-main.js.map": "/WinClick/static/js/runtime-main.c531b1e6.js.map",
+    "static/js/2.e6b22f03.chunk.js": "/WinClick/static/js/2.e6b22f03.chunk.js",
+    "static/js/2.e6b22f03.chunk.js.map": "/WinClick/static/js/2.e6b22f03.chunk.js.map",
+    "static/js/3.998c450d.chunk.js": "/WinClick/static/js/3.998c450d.chunk.js",
+    "static/js/3.998c450d.chunk.js.map": "/WinClick/static/js/3.998c450d.chunk.js.map",
+    "index.html": "/WinClick/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/WinClick/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.e6b22f03.chunk.js.LICENSE.txt": "/WinClick/static/js/2.e6b22f03.chunk.js.LICENSE.txt",
+    "static/media/Logo.2fe7de5b.png": "/WinClick/static/media/Logo.2fe7de5b.png",
+    "static/media/Michael.ffcf13c0.png": "/WinClick/static/media/Michael.ffcf13c0.png",
+    "static/media/details.31fafb37.png": "/WinClick/static/media/details.31fafb37.png",
+    "static/media/facebook.d044e34b.svg": "/WinClick/static/media/facebook.d044e34b.svg",
+    "static/media/github.bb7ad8ab.svg": "/WinClick/static/media/github.bb7ad8ab.svg",
+    "static/media/linkedin.6c32ad69.svg": "/WinClick/static/media/linkedin.6c32ad69.svg",
+    "static/media/logo.2fe7de5b.png": "/WinClick/static/media/logo.2fe7de5b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c531b1e6.js",
+    "static/js/2.e6b22f03.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.10d65588.chunk.js"
+  ]
+}
