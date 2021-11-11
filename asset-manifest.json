@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/WinClick/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/WinClick/static/js/main.10d65588.chunk.js",
-    "main.js.map": "/WinClick/static/js/main.10d65588.chunk.js.map",
+    "main.js": "/WinClick/static/js/main.88704bcd.chunk.js",
+    "main.js.map": "/WinClick/static/js/main.88704bcd.chunk.js.map",
     "runtime-main.js": "/WinClick/static/js/runtime-main.c531b1e6.js",
     "runtime-main.js.map": "/WinClick/static/js/runtime-main.c531b1e6.js.map",
     "static/js/2.e6b22f03.chunk.js": "/WinClick/static/js/2.e6b22f03.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.c531b1e6.js",
     "static/js/2.e6b22f03.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.10d65588.chunk.js"
+    "static/js/main.88704bcd.chunk.js"
   ]
 }
