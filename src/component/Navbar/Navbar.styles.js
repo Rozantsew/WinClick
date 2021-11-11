@@ -4,8 +4,36 @@ import { mediaQueries } from "../../assets/styles/mediaQueries";
 
 // const motion = styled.div``;
 
+export const NavWrapper = styled.div`
+  position: fixed;
+  background: #20293D;
+  width: 100%;
+  background: linear-gradient(#192236, #192236, #192236, #0A1328);
+  border-bottom: 1px solid #000;
+  z-index: 99;
+`;
+
+export const NavContainer = styled.div`
+  padding: 0 20px;
+  margin: auto;
+  align-self: center;
+
+  ${mediaQueries("sm")`
+    max-width: 768px;
+  `};
+  ${mediaQueries("sm")`
+    max-width: 940px;
+    padding: auto;
+  `};
+  ${mediaQueries("sm")`
+    max-width: 1180px;
+  `};
+  
+`;
+
 export const StyledNav = styled.section`
   height: 100px;
+  // width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -14,6 +42,7 @@ export const StyledNav = styled.section`
   overflow: visible;
   overflow: ${({ open }) => (open ? "visible" : "hidden")};
   position: relative;
+  
 
   ${mediaQueries("sm")`
     margin: auto;

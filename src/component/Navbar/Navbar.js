@@ -5,9 +5,8 @@ import Menu from "../Menu/Menu";
 import { bool } from "prop-types";
 import { Link } from "react-router-dom";
 
-import { StyledNav, StyledLogoWrapper, StyledLogo } from "./Navbar.styles";
-import logo from "../../assets/images/logo.png";
-import { StyledContainer } from "../../layouts/Layouts";
+import {NavWrapper, NavContainer, StyledNav, StyledLogoWrapper, StyledLogo } from "./Navbar.styles";
+import logo from "../../assets/images/Logo.png";
 
 const Navbar = (children, ...props) => {
   const [open, setOpen] = useState(false);
@@ -15,8 +14,9 @@ const Navbar = (children, ...props) => {
   useOnClickOutside(node, () => setOpen(false));
 
   return (
-    <StyledContainer>
-      <StyledNav bgColor="#f2f2f2" open={open} setOpen={setOpen}>
+    <NavWrapper>
+    <NavContainer>
+    <StyledNav bgColor="#f2f2f2" open={open} setOpen={setOpen}>
         <StyledLogoWrapper
           {...props}
           whileHover={{ translateX: 4 }}
@@ -31,7 +31,8 @@ const Navbar = (children, ...props) => {
           <Menu open={open} setOpen={setOpen} />
         </div>
       </StyledNav>
-    </StyledContainer>
+     </NavContainer>
+     </NavWrapper>
   );
 };
 Navbar.propTypes = {

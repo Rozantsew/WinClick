@@ -23,7 +23,7 @@ export const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ theme, open }) => theme.primaryDark};
+    background: #fff;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
@@ -41,6 +41,7 @@ export const StyledBurger = styled.button`
 
     :nth-child(3) {
       transform: ${({ open }) => (open ? "rotate(-47deg)" : "rotate(0deg)")};
+      background: linear-gradient(0.25turn, #1982C2, #64328B, #DA1D7B);
     }
   }
   ${mediaQueries("md")`

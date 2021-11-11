@@ -5,7 +5,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: ${({ theme }) => theme.primaryLight};
+  background: transparent;
   text-align: left;
   padding: 5rem;
   position: absolute;
@@ -18,7 +18,7 @@ export const StyledMenu = styled.nav`
   /* transition: transform translateX(100%); */
   overflow: hidden;
   ${mediaQueries("md")`
-        background: #fff;
+        background: transparet;
         transform: translate(0%);
         width: 150px;
         flex-direction: row;
@@ -35,7 +35,7 @@ export const StyledMenu = styled.nav`
     margin: 2rem 0;
     font-weight: 500;
     letter-spacing: 0.1rem;
-    color: ${({ theme }) => theme.primaryDark};
+    color: ${({ theme }) => theme.primaryLight};
     transition: color 0.3s linear;
     /* width: 100px; */
     position: relative;

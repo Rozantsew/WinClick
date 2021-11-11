@@ -4,6 +4,8 @@ import { Switch ,Route } from 'react-router-dom';
 import Theme from "./assets/styles/Theme"
 import Footer from "./component/Footer/Footer"
 import Navbar from "./component/Navbar/Navbar"
+import Home from "./pages/home/Home"
+import Contact from "./pages/contact/Contact"
 
 function App() {
   return (
@@ -11,9 +13,10 @@ function App() {
       <Theme>
       <Navbar />
 
-        {/* <Switch> */}
-          {/* <Route /> */}
-        {/* </Switch> */}
+        <Switch> 
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
         <Footer />
       </Theme>
     </div>
