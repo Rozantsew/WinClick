@@ -6,7 +6,7 @@ import { bool } from "prop-types";
 import { Link } from "react-router-dom";
 
 import {NavWrapper, NavContainer, StyledNav, StyledLogoWrapper, StyledLogo } from "./Navbar.styles";
-import logo from "../../assets/images/Logo.png";
+import logo from "../../assets/images/logo.png";
 
 const Navbar = (children, ...props) => {
   const [open, setOpen] = useState(false);

@@ -5,30 +5,29 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: transparent;
+  background: #0f182c;
   text-align: left;
   padding: 5rem;
   position: absolute;
   top: 0;
-  right: 0;
+  right: -70px;
   transition: transform 0.3s ease-in-out;
-  width: 250px;
+  width: 100%;
   z-index: 9;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
   /* transition: transform translateX(100%); */
   overflow: hidden;
   ${mediaQueries("md")`
-        background: transparet;
+        background: transparent;
         transform: translate(0%);
         width: 150px;
+        right: 10px;
         flex-direction: row;
         padding: 0px;
         width: 70%;
         height: 100px;
         justify-content: flex-end;
         align-items: center;
-        
-
     `} a {
     font-size: 16px;
     text-align: right;
@@ -37,7 +36,7 @@ export const StyledMenu = styled.nav`
     letter-spacing: 0.1rem;
     color: ${({ theme }) => theme.primaryLight};
     transition: color 0.3s linear;
-    /* width: 100px; */
+    text-decoration: none;
     position: relative;
 
     ${mediaQueries("md")`
@@ -49,17 +48,15 @@ export const StyledMenu = styled.nav`
     }
     `}
 
-    &:hover {
-      color: ${({ theme }) => theme.primaryHover};
-    }
     &::after {
       content: "";
       width: 20px;
       height: 2px;
       background-color: #32cddc;
       position: absolute;
-      bottom: -2px;
-      left: 0;
+      bottom: -5px;
+      text-decoration: none;
+      right: 0;
       transition: all 0.4s ease;
 
     ${mediaQueries("md")`
@@ -67,10 +64,10 @@ export const StyledMenu = styled.nav`
     `}
   }
     
-  &:hover::after {
-    width: 100%;
-    height: 2px;
-    background-color: #3490ff;
+    &:hover::after {
+      width: 100%;
+      height: 2px;
+      background-color: #cf1e7c;
+    }
   }
-}
 `;

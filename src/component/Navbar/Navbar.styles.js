@@ -28,11 +28,10 @@ export const NavContainer = styled.div`
   ${mediaQueries("sm")`
     max-width: 1180px;
   `};
-  
 `;
 
 export const StyledNav = styled.section`
-  height: 100px;
+  height: 80px;
   // width: 100%;
   display: flex;
   flex-direction: column;
@@ -63,9 +62,13 @@ export const StyledLogoWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 200px;
+  width: 160px;
   height: auto;
   cursor: pointer;
+
+  ${mediaQueries("sm")`
+    width: 200px;
+  `};
 `;
 
 // Nav bar list style

@@ -15,7 +15,6 @@ const Contact = () => {
   return (
     <ContactSectionWrapper>
       <StyledContainer>
-        <ContactAsideLogo primary src={Aside_Logo}></ContactAsideLogo>
         <ContactHeader>Kontakt</ContactHeader>
         <ContentWrapper>
           <DetailsWrapper>
@@ -24,7 +23,6 @@ const Contact = () => {
             </DetailsHeader>
             <DetailsParagraph>
               Michał Rozantsew <br></br>
-              Web Developer <br></br>
               663 794 612
             </DetailsParagraph>
           </DetailsWrapper>
@@ -33,7 +31,6 @@ const Contact = () => {
               Head of Marketing
             </DetailsHeader>
             <DetailsParagraph>
-              Michał Rozantsew <br></br>
               Alessandro Casetti <br></br>
               504 312 077
             </DetailsParagraph>
@@ -43,8 +40,7 @@ const Contact = () => {
               Content Manager
             </DetailsHeader>
             <DetailsParagraph>
-              Michał Rozantsew <br></br>
-              Mateusz Dziuba <br></br>
+              Mateusz Dziubiński <br></br>
               514 953 375
             </DetailsParagraph>
           </DetailsWrapper>

@@ -12,7 +12,6 @@ function App() {
     <div className="App">
       <Theme>
       <Navbar />
-
         <Switch> 
           <Route path="/" exact component={Home} />
           <Route path="/contact" component={Contact} />

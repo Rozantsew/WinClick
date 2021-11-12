@@ -2,7 +2,10 @@ import React from "react";
 import { StyledContainer } from "../../layouts/Layouts";
 
 import {
+  FooterWrapper,
+  FooterContainer,
   StyledFooter,
+  IconText,
   StyledLogoWrapper,
   StyledLogo,
   CopyrightWrapper,
@@ -10,31 +13,32 @@ import {
   SocialIcon,
   CopyrightText,
 } from "./Footer.styles";
-import logo from "../../assets/images/logo.png";
-import githubIcon from "../../assets/images/github.svg";
-import linkedinIcon from "../../assets/images/linkedin.svg";
-import facebookIcon from "../../assets/images/facebook.svg";
+import instagramIcon from "../../assets/images/icons/instagram.png";
+import linkedinIcon from "../../assets/images/icons/linkedin.png";
+import facebookIcon from "../../assets/images/icons/facebook.png";
 
 const Footer = () => {
   return (
-    <StyledContainer>
-      <StyledFooter>
-        <StyledLogoWrapper>
-          <StyledLogo src={logo}></StyledLogo>
-        </StyledLogoWrapper>
-        <CopyrightWrapper>
-          <SocialWrapper>
-            <SocialIcon src={githubIcon}></SocialIcon>
-            <SocialIcon src={linkedinIcon}></SocialIcon>
-            <SocialIcon src={facebookIcon}></SocialIcon>
-          </SocialWrapper>
-          <CopyrightText>
-            Polityka prywatności<br></br> © 2020 Michał Rozantsew. All rights
-            reserved
-          </CopyrightText>
-        </CopyrightWrapper>
-      </StyledFooter>
-    </StyledContainer>
+    <FooterWrapper>
+      <FooterContainer>
+        <StyledFooter>
+          <CopyrightWrapper>
+            <SocialWrapper>
+              <SocialIcon src={linkedinIcon}></SocialIcon>
+              <SocialIcon src={facebookIcon}></SocialIcon>
+              <SocialIcon src={instagramIcon}></SocialIcon>
+            </SocialWrapper>
+            <IconText>
+              Obserwuj nas
+            </IconText>
+          </CopyrightWrapper>
+            <CopyrightText>
+              Polityka prywatności<br></br> © 2021 WinClick. All rights
+              reserved
+            </CopyrightText>
+        </StyledFooter>
+      </FooterContainer>
+    </FooterWrapper>
   );
 };
 

@@ -3,7 +3,7 @@ import { mediaQueries } from "../../assets/styles/mediaQueries";
 
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 30px;
+  top: 29px;
   right: 0px;
   display: flex;
   flex-direction: column;

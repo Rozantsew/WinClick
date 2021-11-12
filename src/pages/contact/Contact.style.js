@@ -8,12 +8,23 @@ export const ContactSectionWrapper = styled.div`
 
 export const ContactHeader = styled.h1`
   font-weight: 300;
-  margin-bottom: 70px;
+  margin: 100px 0 70px;
   text-align: Left;
   color: #fff;
-  ${mediaQueries("md")`
+  position: relative;
+  ${mediaQueries("sm")`
     text-align: left;
   `};
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background: linear-gradient(0.25turn, #1982C2, #682E88, #DA1D7B);
+    bottom: -10px;
+    left: 0;
+  }
 `;
 
 
@@ -45,11 +56,13 @@ export const DetailsWrapper = styled.div`
 export const DetailsHeader = styled.h3`
   text-align: left;
   color: #fff;
-  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 22px;
+  margin: 30px 0 0;
 `;
 
 export const DetailsParagraph = styled.div`
-  line-height: 1.4em;
+  line-height: 1.6em;
   text-align: left;
   max-width: 400px;
   color: #fff;
